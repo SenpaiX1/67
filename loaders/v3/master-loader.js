@@ -113,7 +113,7 @@
     else window.config.unityWebglLoaderUrl = "/v2/UnityLoader.js"
   }
   const y = document.createElement("script");
-  y.src = "../scripts/v2/poki-sdk.js", y.onload = () => {
+  y.src = "scripts/v2/poki-sdk.js", y.onload = () => {
     const t = document.createElement("script");
     t.src = p + f, document.body.appendChild(t)
   }, document.body.appendChild(y)
